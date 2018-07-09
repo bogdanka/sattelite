@@ -1,0 +1,118 @@
+@media only screen and (min-width: 1140px) {
+
+   /* * {
+        box-sizing: border-box;
+        text-align: center;
+        padding: 0;
+        margin: 0;
+        transition: all .2s;
+    }
+
+    a {
+        text-decoration: none;
+        text-align: center;
+        color: #000;
+    }
+
+    ul {
+        list-style: none;
+    }*/
+
+    .main .wrapper {
+        margin-top: 80px;
+    }
+
+    .header-container {
+        width: 100%;
+        position: fixed;
+    }
+
+    .wrapper {
+        width: 1026px; /* 1140px - 10% for margins */
+        margin: 0 auto;
+    }
+
+    header.wrapper img {
+        display: inline-block;
+        vertical-align: middle;
+        padding: 20px;
+    }
+
+  /*  !*Top menu with logotype*!
+    .top_menu-wrapper {
+        width: 100%;
+    }
+
+    .top-menu {
+        width: 100%;
+        !*background-color: violet;*!
+    }
+
+    .sat-logo {
+        width: 100%;
+        height: 50px;
+    }
+
+    .sat-logo > img {
+        display: block;
+        margin: 0 auto;
+        padding-top: 5px;
+        width: 90%;
+        vertical-align: middle;
+        background-color: transparent;
+    }
+
+    .top-menu_sat-logo {
+        !*border: 1px solid green;*!
+        display: block;
+        float: left;
+        width: calc(100% / 5);
+    }
+
+    .top-menu_sat-logo > a:hover .sat-logo > img {
+        -webkit-transform: scale(1.2);
+        -moz-transform: scale(1.2);
+        -ms-transform: scale(1.2);
+        -o-transform: scale(1.2);
+        transform: scale(1.2);
+    }
+
+    .top-menu_sat-logo > a:hover > h3 {
+        color: gold;
+    }*/
+
+    .wrapper ul.sub-menu {
+        display: none;
+        position: relative;
+    }
+
+    ul.sub-menu li {
+        position: absolute;
+        top: 100%;
+        left: 0;
+        display: block;
+        padding: 20px;
+        width: 50px;
+    }
+
+    ul.sub-menu li > a {
+        display: block;
+        padding: 20px;
+        width: 50px;
+    }
+
+    ul.sub-menu a {
+        font-size: 14px;
+        display: block;
+        position: absolute;
+        padding: 10px;
+        top: 100%;
+        left: 0;
+    }
+
+    h3 {
+        padding: 0;
+        margin: 0;
+    }
+
+}
